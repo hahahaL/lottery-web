@@ -6,7 +6,7 @@
   "scripts": {
     "serve": "npm run start",
     "build": "webpack --mode=production --progress --colors",
-    "dev": "webpack-dev-server --config webpack.dev.js --mode=development --progress --colors"
+    "dev": "webpack-dev-server --config webpack.dev.js --mode=development --progress --colors --host 0.0.0.0"
   },
   "author": "moshang",
   "license": "ISC",
